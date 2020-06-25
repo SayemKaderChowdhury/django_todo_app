@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>List</title>
-</head>
-<body>
-    <h1>List of todo app</h1>
-</body>
-</html>
+<h1>To Do app</h1>
+
+{% for task in tasks %}
+    <div>
+        <p>{{ task }}</p>
+    </div>
+{% endfor %}
